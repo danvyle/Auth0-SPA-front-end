@@ -8,6 +8,7 @@ const Profile = () => {
     return <div>Loading...</div>;
   }
 
+  // import information from externalapi.js, output info here, do we need to create new component?
   return (
     <Fragment>
       <img src={user.picture} alt="Profile" />

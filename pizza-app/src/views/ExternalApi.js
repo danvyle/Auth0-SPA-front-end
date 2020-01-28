@@ -6,6 +6,9 @@ const ExternalApi = () => {
   const [apiMessage, setApiMessage] = useState("");
   const { getTokenSilently } = useAuth0();
 
+
+  //call api here 
+  //return full object, put in array/hash, output number needed in profile.js
   const callApi = async () => {
     try {
       const token = await getTokenSilently();
