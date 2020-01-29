@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { useAuth0 } from "../react-auth0-spa";
+import config from "./auth_config.json";
+
 
 
 // const ExternalApi = () => {
@@ -17,7 +19,7 @@ import { useAuth0 } from "../react-auth0-spa";
 //               function(err) { console.error("Error signing in", err); });
 //   }
 //   function loadClient() {
-//     gapi.client.setApiKey("AIzaSyCuQtPBYHk2dG-Yc1_gPdnao3Uh-Dg51TU");
+//     gapi.client.setApiKey({config.clientId});
 //     return gapi.client.load("https://content.googleapis.com/discovery/v1/apis/people/v1/rest")
 //         .then(function() { console.log("GAPI client loaded for API"); },
 //               function(err) { console.error("Error loading GAPI client for API", err); });
@@ -35,7 +37,7 @@ import { useAuth0 } from "../react-auth0-spa";
 //               function(err) { console.error("Execute error", err); });
 //   }
 //   gapi.load("client:auth2", function() {
-//     gapi.auth2.init({client_id: "149137159625-ca1k8bbofv6aanck6v3rbtj0pue882jn.apps.googleusercontent.com"});
+//     gapi.auth2.init({client_id: {config.clientId}});
 //   });
 // </script>
 

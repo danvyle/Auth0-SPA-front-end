@@ -1,6 +1,8 @@
 {
  "domain": "danvyle.auth0.com",
  "clientId": "o1JqB5SW9z85ulns3Qxr8qWoe07093gS",
- "audience": "https://localhost:8888"
+ "audience": "https://localhost:8888",
+ "client_id": "149137159625-ca1k8bbofv6aanck6v3rbtj0pue882jn.apps.googleusercontent.com",
+ "apiKey": "AIzaSyCIxuHwfpmeIqA_ucgz3ypaVkGYIX8ZcRA"
 }
 
