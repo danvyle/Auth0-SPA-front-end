@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { useAuth0 } from "../react-auth0-spa";
-import callApi from "../views/ExternalApi.js";
+// import callApi from "../views/ExternalApi.js";
 
 const Profile = () => {
   const { loading, user } = useAuth0();
@@ -16,7 +16,7 @@ const Profile = () => {
 
       <h2>{user.name}</h2>
       <p>{user.email}</p>
-      <p>{callApi}</p>
+      {/* <p>{callApi}</p> */}
       <code>{JSON.stringify(user, null, 2)}</code>
     </Fragment>
   );
